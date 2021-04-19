@@ -1,0 +1,101 @@
+body{
+    margin: 0 auto;
+	background-color:#000;
+    background-repeat: no-repeat;
+    background-size: 100% 720px; 
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: auto 1.5em;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(52, 73, 94, 0.7);
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 150px;
+}
+.container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+input[type="text"], input[type="password"]{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+
+.btn-login{
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-bottom: 20px;
+}
+
+h6{
+
+    color: white;
+    float: right;
+    
+}
+
+h1{
+    text-align: center;
+    color: #ffd88e;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+a:link, a:visited{
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background: #AARRGGBB;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+	padding:30px;
+}
+
+a:hover, a:active{
+    color: #ff5c5c;
+}
+
+.header{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+}
+
+nav{
+	text-align:center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.75em;
+    font-style: italic;
+    padding-top: 100px;;
+}
+
+.contact-us{
+    background: #999;
+    padding: 17px;
+    padding-top: 5px;
+}
+
