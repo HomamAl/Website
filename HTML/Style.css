@@ -1,0 +1,526 @@
+            html {
+            background: black;
+        }
+        
+        body {
+            font-family: sans-serif;
+            font-size: 1em;
+            line-height: auto 1.5em;
+        }
+        
+        section {
+            text-align: center;
+            padding-top: 5px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ffd88e;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+        
+        h2 {
+            color: red;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        .icon_p {
+            text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        article {
+            background: white;
+            padding: 17px;
+            padding-top: 5px;
+        }
+        
+        .contact-us {
+            background: #999;
+            padding: 17px;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            font-size: 0.75em;
+            font-style: italic;
+            padding-top: 5px;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        .header {
+            display: inline-flex;
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            padding: 5px;
+        }
+        
+        a:link,
+        a:visited {
+            display: block;
+            width: 120px;
+            font-weight: bold;
+            color: white;
+            background: black;
+            text-align: center;
+            padding: 4px;
+            text-decoration: none;
+            text-transform: uppercase;
+            float: left;
+            padding-bottom: 30px;
+        }
+        
+        a:hover,
+        a:active {
+            color: #ff5c5c;
+        }
+        
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+        
+        td {
+            vertical-align: top;
+            padding: 10px 0px 0px 50px;
+        }
+        
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 350px;
+        }
+        
+        a.link {
+            display: inline;
+            font-weight: 100;
+            color: blue;
+            background: #ffd88e;
+            padding: 0px;
+            text-decoration: underline;
+            text-transform: none;
+            float: none;
+        }
+        
+        span {
+            color: red;
+            font-size: 1.15em;
+            text-transform: uppercase;
+        }
+        
+        bold {
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+        #home {
+            background-image: url("Tech.jpg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #courses {
+            background-image: url("https://static.pexels.com/photos/7103/writing-notes-idea-conference.jpg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #team {
+            background-image: url("https://static.pexels.com/photos/7097/people-coffee-tea-meeting.jpg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #contact {
+            background-image: url("contact.jpg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        .team {
+            background-color: #ffd88e;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .bold {
+            color: #666;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+        
+        .form {
+            background-color: white;
+        }
+        
+        .icons {
+            font-size: 16px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        
+        body {
+            margin: 0 auto;
+            background-color: #000;
+            background-repeat: no-repeat;
+            background-size: 100% 720px;
+            font-family: sans-serif;
+            font-size: 1em;
+            line-height: auto 1.5em;
+        }
+        
+        .container {
+            width: 500px;
+            height: 1200px;
+            text-align: center;
+            background-color: rgba(52, 73, 94, 0.7);
+            margin: 0 auto;
+            border-radius: 4px;
+            margin-top: 150px;
+            padding-left: 20px;
+            margin-bottom: 100px;
+        }
+        
+        .container img {
+            width: 120px;
+            height: 120px;
+            margin-top: -60px;
+            margin-bottom: 30px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            height: 30px;
+            width: 300px;
+            font-size: 18px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding-left: 30px;
+        }
+        
+        .submit {
+            padding: 15px 25px;
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+            background-color: #2ECC71;
+            border-bottom: 4px solid #27AE60;
+            margin-bottom: 20px;
+            padding-top:
+        }
+        
+        p {
+            text-align: left;
+            font-size: 18px;
+            color: black;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ffd88e;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+        
+        #courses-web {}
+        
+        footer {
+            text-align: center;
+            color: white;
+            font-size: 0.75em;
+            font-style: italic;
+            padding-bottom: 20px;
+        }
+        
+        #design {
+            background-image: url("https://static.pexels.com/photos/6224/hands-people-woman-working.jpg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #html {
+            background-image: url("https://static.pexels.com/photos/48606/pexels-photo-48606.jpeg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #dreamweaver {
+            background-image: url("https://static.pexels.com/photos/177598/pexels-photo-177598.jpeg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #js {
+            background-image: url("https://static.pexels.com/photos/89724/pexels-photo-89724.jpeg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #CSS {
+            background-image: url("https://static.pexels.com/photos/48606/pexels-photo-48606.jpeg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        #pyt {
+            background-image: url("http://static4.businessinsider.com/image/5666054484307668008b817c-1190-625/if-youre-new-to-coding-this-is-the-programming-language-you-should-learn-first.jpg");
+            no-repeat center bottom;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 500px;
+            position: relative;
+            top: -22px;
+            width: 1000px;
+            background-attachment: fixed;
+            height: 1000px;
+            position: relative;
+            top: -22px;
+            width: 100%;
+        }
+        
+        a.test {
+            display: inline;
+            font-weight: 100;
+            color: blue;
+            background: white;
+            padding: 0px;
+            text-decoration: underline;
+            text-transform: none;
+            float: none;
+        }
+        
+        a.html {
+            display: inline;
+            font-weight: 100;
+            color: blue;
+            background: white;
+            padding: 0px;
+            text-decoration: underline;
+            text-transform: none;
+            float: none;
+        }
+        
+        a.python {
+            display: inline;
+            font-weight: 100;
+            color: blue;
+            background: white;
+            padding: 0px;
+            text-decoration: underline;
+            text-transform: none;
+            float: none;
+        }
+        
+        a.css {
+            display: inline;
+            font-weight: 100;
+            color: blue;
+            background: white;
+            padding: 0px;
+            text-decoration: underline;
+            text-transform: none;
+            float: none;
+        }
+        
+        a.Dream-Weaver {
+            display: inline;
+            font-weight: 100;
+            color: blue;
+            background: white;
+            padding: 0px;
+            text-decoration: underline;
+            text-transform: none;
+            float: none;
+        }
+        
+        .trainee {
+            background-color: #555;
+            margin-top: : 50px;
+        }
+        
+        @media(max-width: 768px) {
+            header #branding,
+            header nav,
+            header nav li,
+            #newsletter h1,
+            #newsletter form,
+            #boxes .box,
+            article#main-col,
+            aside#sidebar {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            header {
+                padding-bottom: 20px;
+            }
+            header nav {
+                text-align: center;
+            }
+            #showcase h1 {
+                margin-top: 40px;
+            }
+            #newsletter button,
+            .quote button {
+                display: block;
+                width: 100%;
+            }
+            #newsletter form input[type="email"],
+            .quote input,
+            .quote textarea {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+        
+        @media screen and (max-width:768px) {
+            h2 {
+                text-align: center;
+                float: none;
+                padding: 15px;
+                text-align: center;
+                width: 100%;
+                max-width: 300px;
+                font-size: 20px;
+            }
+            .content h1 {
+                font-size: 250%;
+            }
+            .btn {
+                font-size: 110%;
+                padding: 7px 15px;
+            }
+            h1 {
+                font-size: 100%;
+                line-height: 160%;
+            }
+            .image {
+                float: center;
+                margin: 5px;
+                padding: 15px;
+                max-width: 300px;
+                height: 300px;
+            }
+            .image2 {
+                float: center;
+                margin: 5px;
+                padding: 15px;
+                max-width: 300px;
+                height: 300px;
+            }
+            .partner h5 {
+                font-size: 100%;
+                margin: 2px;
+                padding: 10px;
+                max-width: 300px;
+                height: 200px;
+                float: center;
+            }
+            .partner h4 {
+                font-size: 200%;
+                margin: 5px;
+                padding: 15px;
+                max-width: 300px;
+                height: 300px;
+                float: center;
+            }
